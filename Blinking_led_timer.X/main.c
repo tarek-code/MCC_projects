@@ -57,7 +57,7 @@ void main(void)
 {
     // Initialize the device
     SYSTEM_Initialize();
-   // TMR0_WriteTimer(TIME);
+   // TMR0_WriteTimer(TIME);  // by default the delay time is 1s uncomment this function and the other one and send the value of the register to change the delay time  
     
     TMR0_SetInterruptHandler(Led_toggile);
     TMR0_StartTimer();
