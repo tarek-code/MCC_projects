@@ -1,0 +1,344 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K20 ]
+[d frameptr 4065 ]
+"74 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\main.c
+[e E3062 . `uc
+channel_AN0 0
+channel_FVR 15
+]
+"83 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/adc.c
+[e E2727 . `uc
+channel_AN0 0
+channel_FVR 15
+]
+"4 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"55 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\main.c
+[v _ConvertADCVoltage ConvertADCVoltage `(v  1 e 1 0 ]
+"68
+[v _main main `(v  1 e 1 0 ]
+"62 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"83
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+"91
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+"98
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+"110
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"50 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"80
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+"62 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"345 C:/Users/Unlimited/.mchp_packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\pic\include\proc\pic18f46k20.h
+[v _WPUB WPUB `VEuc  1 e 1 @3964 ]
+"446
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"508
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+"1532
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1644
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1756
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1868
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1980
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"2032
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"2254
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2476
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2698
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2920
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"3072
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S50 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"3241
+[s S59 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S63 . 1 `S50 1 . 1 0 `S59 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES63  1 e 1 @3998 ]
+"4891
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"4962
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"4969
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @4028 ]
+"5079
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"5150
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"5201
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S302 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"5245
+[s S305 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S309 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S316 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S319 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S322 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S325 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S328 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S331 . 1 `S302 1 . 1 0 `S305 1 . 1 0 `S309 1 . 1 0 `S316 1 . 1 0 `S319 1 . 1 0 `S322 1 . 1 0 `S325 1 . 1 0 `S328 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES331  1 e 1 @4034 ]
+"5327
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5334
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"5712
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S81 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"5733
+[s S85 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S93 . 1 `S81 1 . 1 0 `S85 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES93  1 e 1 @4042 ]
+"5783
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"5893
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"6455
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S144 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6998
+[s S147 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S156 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S159 . 1 `S144 1 . 1 0 `S147 1 . 1 0 `S156 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES159  1 e 1 @4081 ]
+[s S179 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"7075
+[s S188 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S197 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S201 . 1 `S179 1 . 1 0 `S188 1 . 1 0 `S197 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES201  1 e 1 @4082 ]
+"53 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\main.c
+[v _adones adones `us  1 e 2 0 ]
+[v _adtenth adtenth `us  1 e 2 0 ]
+[v _adhundredth adhundredth `us  1 e 2 0 ]
+"54
+[v _adcVoltValue adcVoltValue `us  1 e 2 0 ]
+"67
+[v _convertedValue convertedValue `us  1 e 2 0 ]
+"68
+[v _main main `(v  1 e 1 0 ]
+{
+"102
+} 0
+"50 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"62 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"64 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"55 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"60 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"62 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"81
+} 0
+"80 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM2_LoadDutyValue@dutyValue dutyValue `us  1 p 2 6 ]
+"87
+} 0
+"55 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\main.c
+[v _ConvertADCVoltage ConvertADCVoltage `(v  1 e 1 0 ]
+{
+[v ConvertADCVoltage@adc_conv_data adc_conv_data `ui  1 p 2 7 ]
+"66
+} 0
+"15 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 E:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"91 D:\Ahmed_addulghafar\02_Part 2_Microcontroller_Interfacing\MCC_projects\MCC_projects\pwm_led.X\mcc_generated_files/adc.c
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+"95
+} 0
+"83
+[v _ADC_SelectChannel ADC_SelectChannel `(v  1 e 1 0 ]
+{
+[v ADC_SelectChannel@channel channel `E2727  1 a 1 wreg ]
+[v ADC_SelectChannel@channel channel `E2727  1 a 1 wreg ]
+"86
+[v ADC_SelectChannel@channel channel `E2727  1 a 1 1 ]
+"89
+} 0
+"98
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+{
+"102
+} 0
+"110
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E2727  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E2727  1 a 1 wreg ]
+"113
+[v ADC_GetConversion@channel channel `E2727  1 a 1 4 ]
+"128
+} 0
