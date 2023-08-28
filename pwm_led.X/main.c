@@ -52,6 +52,7 @@
 #define ADC_RESOLUTION (VDD/ADC_STEPS) 
 uint16_t adones, adtenth, adhundredth;
 uint16_t adcVoltValue;
+
 void ConvertADCVoltage ( unsigned int adc_conv_data )
 {
     adcVoltValue = (ADC_RESOLUTION*adc_conv_data);  //3.225 milli volts one step per division
@@ -64,6 +65,7 @@ void ConvertADCVoltage ( unsigned int adc_conv_data )
     adhundredth = adcVoltValue/100;
     adhundredth = adhundredth%10;         // one hundredth decimal place
 }
+
  uint16_t convertedValue;
 void main(void)
 {
